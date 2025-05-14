@@ -42,3 +42,6 @@ def product_delete_view(request, product_id):
         product.delete()
         return redirect('product_list')
     return render(request, 'invApp/product_confirm_delete.html', {'product':product})
+
+
+# commented for testing
